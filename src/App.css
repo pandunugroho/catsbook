@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  /* background: #0E92E4; */
+}
+
+.h-wrapper {
+  height: 100px;
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+h1 {
+  margin: auto;
+}
+
+.cards-wrapper {
+  height: calc(100vh - 100px);
+  max-height: 600px;
+  overflow-y: scroll;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  margin: 12px 24px;
+}
